@@ -37,7 +37,7 @@ const Home = () => {
     return (
         <Layout
             title="Darmstadt "
-            description="Darmstadt E-commerce App, come on and discover this magical city!!"
+            description="Darmstadt E-commerce App, discover the 'City of Science'!!"
             className="container-fluid"
         >
             <Search />
