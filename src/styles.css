@@ -8,7 +8,20 @@
     border-radius: 0px;
 }
 
+
 /* cart badge */
+
+.btn-outline-primary {
+    color: #191744;
+    border-color: #191744!important;
+}
+.btn-outline-primary:hover {
+    background-color: #191744;
+}
+
+.badge-primary {
+    background-color: #191744;
+}
 
 .cart-badge,
 .cart-badge:hover {
@@ -23,15 +36,67 @@
  */
 
 .name {
-    background: indigo;
+    background: #191744;
     color: #fff;
     font-weight: bold;
 }
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+    font-weight: bold;
+}
+
+.black-10 {
+    color:black);
+}
+
+.bg-primary {
+    background-color: #191744!important;
+}
+
+.input-group-text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0.2rem 0.75rem;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 1.25rem;
+}
+
+.container {
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 10px;
+    border-radius: 1px;
+}
+
+.btn-outline-warning {
+    color: rgb(255, 153, 0);
+    border-color: rgb(255, 153, 0);
+    border-width: 1.35px;
+}
+
+.btn-outline-warning:hover {
+    background-color: rgb(255, 153, 0);
+}
+
 
 /* black shade form 10-1 */
 .black-10 {
     background: #f2f2f2;
 }
+.black-10 {
+    color: rgb(0, 0, 0)!important;
+}
+
 .black-9 {
     background: #e6e6e6;
 }
@@ -71,14 +136,10 @@
  */
 
 .jumbotron {
+    background: linear-gradient(45deg, #03030a, #17174e, #23a6d5, #23d5ab);
     width: 30wh;
     height: 20vh;
     color: #fff;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    -webkit-animation: Gradient 15s ease infinite;
-    -moz-animation: Gradient 15s ease infinite;
-    animation: Gradient 15s ease infinite;
 }
 
 @-webkit-keyframes Gradient {

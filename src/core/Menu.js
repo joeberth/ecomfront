@@ -11,6 +11,11 @@ const isActive = (history, path) => {
     }
 };
 
+const returnBackground = () => {  
+        return { "background-color": "#191744" };  
+};
+
+
 const Menu = ({ history }) => (
     <div>
         <ul className="nav nav-tabs bg-primary">
