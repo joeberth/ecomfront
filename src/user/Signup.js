@@ -95,7 +95,7 @@ const Signup = () => {
     return (
         <Layout
             title="Create your account."
-            description="Register and come live the dream of knowing Darmstadt."
+            description="Register and come live the dream of knowing Toronto and Canadá."
             className="container col-md-8 offset-md-2"
         >
             {showSuccess()}
