@@ -36,8 +36,8 @@ const Home = () => {
 
     return (
         <Layout
-            title="Randoli "
-            description="Randoli E-commerce App, discover the '2017 Best place to live'!!"
+            title="Remitbee "
+            description="Remitbee E-commerce App, discover the '2017 Best place to live'!!"
             className="container-fluid"
         >
             <Search />
